@@ -1,0 +1,24 @@
+{
+  "name": "atividade-1---ppi",
+  "version": "1.0.0",
+  "description": "Atividade 1 PPI ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SullyvanOgawa/Atividade-1---PPI.git"
+  },
+  "author": "Sullyvan Ogawa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SullyvanOgawa/Atividade-1---PPI/issues"
+  },
+  "homepage": "https://github.com/SullyvanOgawa/Atividade-1---PPI#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
