@@ -18,10 +18,10 @@ app.use(session({
     }
 }))
 app.use(express.urlencoded({extended: true}));
-
 app.use(express.static('./Views/public'));
 
 app.post("/login", (requisicao, resposta) => {
+
     const usuario = requisicao.body.usuario;
     const senha = requisicao.body.senha;
 

@@ -17,13 +17,17 @@
         </p>
     </div>
 
-    <div>
-        <p>Preço: R$250,00</p>
-        <p>carga horária: 60 horas</p>
-        <p>Quantidade de Vagas: </p>
+    <div class="curso" data-preco="250" data-vagas="4">
         <p>Instrutor: Prof. Dr. Mario da Silva</p>
+        <p>carga horária: 60 horas</p>
+        <p>Preço: R$250,00</p>
+        <p>Vagas disponíveis: <span class="vagas"></span></p>
+        <label>Quantidade de Vagas: </label>
+        <input type="number" class="quantidade" min="1" value="1">
+        <p>Total à pagar: <span class="total"></span> </p>
+        <button class="btn-confirmar">Confirmar Seleção</button>    
     </div>
-
-    <button><a href="index.html">Voltar</a></button>
+    <script src="/js/script.js"></script>
+    <button><a href="/index.html">Voltar</a></button>
 </body>
 </html>
