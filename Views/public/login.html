@@ -1,21 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleLogin.css">
     <title>Login</title>
 </head>
-<body>
+<body class="login">
+    <main class="login-card">
+         <h2 class="login-titulo">Login</h2>
+        <form class="login-formulario" method="POST" action="/login">
+            <div class="formulario-div">
+                <label class="form-label" for="usuario">Usuário:</label>
+                <input class="form-input" type="text" name="usuario">
+            </div>
+        
+            <div class="formulario-div">
+                <label class="form-label" for="senha">Senha:</label>
+                <input class="form-input" type="password" name="senha">
+            </div>
+            
 
-    <h2>Login</h2>
-    <form method="POST" action="/login">
-        <label for="usuario">Usuário:</label>
-        <input type="text" name="usuario">
-
-        <label for="senha">Senha:</label>
-        <input type="password" name="senha">
-
-        <button type="submit">Entrar</button>
-    </form>
+            <button class="btn-submit" type="submit">Entrar</button>
+        </form>
+    </main>
+   
 </body>
 </html>

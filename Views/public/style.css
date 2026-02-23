@@ -1,0 +1,40 @@
+.escolha-curso{
+    text-align: center;
+}
+.curso-container {
+    display: flex;          
+    flex-wrap: wrap;        
+    gap: 20px;              
+    justify-content: center; 
+    padding: 20px;
+    list-style: none;       
+}
+
+
+.curso{
+    display: flex;
+    flex-direction: column; 
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 280px;          
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.curso:hover {
+    transform: translateY(-5px); 
+}
+
+
+.btn {
+    margin-top: auto;      
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+}
