@@ -7,28 +7,28 @@
     <title>Adobe Illustrator</title>
 </head>
 <body >
-   <h1>Adobe Illustrator</h1>
-
-    <div>
-        <h2>O Curso</h2>
-        <p>
+   <h1 class="titulo">Adobe Illustrator</h1>
+    <h2 class="titulo">O Curso</h2>
+    <div> 
+        <p class="descricao-curso">
             Conhecendo a interface. Ferramentas de seleção e manipulação.
             Ferramentas de desenho. Primeiros traços. Cores. Máscaras e camadas. Criar, salvar e
             exportar. Construção prática.
         </p>
     </div>
 
-    <div data-preco="180" data-vagas="5">
-        <p>Instrutor: Prof. Dr. João da Silva</p>
-        <p>carga horária: 80 horas</p>
-        <p>Preço: R$180,00</p>
-        <p>Vagas disponíveis: <span class="vagas"></span></p>
-        <label>Quantidade de Vagas: </label>
+    <div class="curso" data-preco="180" data-vagas="5">
+        <p class="descricao-curso"><strong>Instrutor:</strong> Prof. Dr. João da Silva</p>
+        <p class="descricao-curso"> <strong>Carga horária:</strong>80 horas</p>
+        <p class="descricao-curso"><strong>Preço:</strong> R$180,00</p>
+        <p class="descricao-curso"><strong>Vagas disponíveis:</strong><span class="vagas"></span></p>
+        <label class="descricao-curso"><strong>Quantidade de Vagas:</strong></label>
         <input type="number" class="quantidade" min="1" value="1">
-        <p>Total à pagar: <span class="total"></span></p>
-        <button class="btn-confirmar">Confirmar Seleção</button>     
+        <p class="descricao-curso"><strong>Total à pagar:</strong> <span class="total"></span></p>
+        <button class="btn-confirmar botao-confirma">Confirmar Seleção</button>     
     </div>
+     <button class="container-voltar"><a href="/index.html" class="btn-voltar">Voltar</a></button> 
     <script src="/js/script.js"></script>
-    <button><a href="/index.html">Voltar</a></button> 
+   
 </body>
 </html>

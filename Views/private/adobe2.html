@@ -3,39 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Adobe Illustrator - Iniciante até Criação de Marcas</title>
 </head>
-<body class="pagina">
-    <h1 class="titulo-principal">Adobe Illustrator - Iniciante até Criação de Marcas</h1>
-
+<body>
+    <h1 class="titulo">Adobe Illustrator - Iniciante até Criação de Marcas</h1>
+    <h2 class="titulo">O Curso</h2>
     <div class="descricao">
-        <h2 class="titulo-secao">O Curso</h2>
-        <p class="texto-descricao" >
+        
+        <p  class="descricao-curso">
             O curso é a porta de entrada para o mundo do Adobe Illustrator, levando o aluno a um nível básico/ intermediário, capacitando-o com as habilidades e conhecimentos essenciais para criar logotipos incríveis.
             Por meio de uma abordagem prática e envolvente, centrada em oferecer uma compreensão sólida das ferramentas do Illustrator e das teorias de design que sustentam um logotipo eficaz, o aluno não apenas aprenderá os conceitos, mas também terá a oportunidade de aplicá-los em projetos práticos, desenvolvendo sua criatividade e confiança como designer.
         </p>
     </div>
 
     <div class="curso" data-preco="150" data-vagas="5">
-        <p class="info">Instrutor: Prof. Dr. José da Silva</p>
-        <p class="info">carga horária: 10 horas</p>
-        <p class="info">Preço: R$150,00</p>
+        <p class="descricao-curso"><strong>Instrutor:</strong> Prof. Dr. José da Silva</p>
+        <p class="descricao-curso"><strong>Carga horária:</strong> 10 horas</p>
+        <p class="descricao-curso"><strong>Preço:</strong> R$150,00</p>
         
-        <p class="info">Vagas disponíveis: <span class="vagas"></span></p>
-        
-        <label class="label">Quantidade de Vagas: </label>
+       <p class="descricao-curso"><strong>Vagas disponíveis:</strong> <span class="vagas"></span></p>
+        <label class="descricao-curso"><strong>Quantidade de Vagas:</strong></label>
         <input type="number" class="quantidade" min="1" value="1">
-        
-        <p class="info total-container">Total à pagar:<span class="total"></span> </p>
-        
-        <button class="btn-confirmar">Confirmar Seleção</button>
-          
+        <p class="descricao-curso"><strong>Total à pagar:</strong> <span class="total"></span> </p>
+        <button class="btn-confirmar botao-confirma">Confirmar Seleção</button>    
     </div>
-   
-        
-    <div class="footer">
-        <a href="/index.html" class="btn-voltar">← Voltar para a página inicial</a>
-    </div>
-     <script src="/js/script.js"></script>
+    <button class="container-voltar"><a href="/index.html" class="btn-voltar">Voltar</a></button>
+    <script src="/js/script.js"></script>
 </body>
 </html>

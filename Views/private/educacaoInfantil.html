@@ -3,29 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Educação Infantil</title>
 </head>
 <body>
-    <h1>A importância do brincar na Educação Infantil</h1>
-
+    <h1 class="titulo">A importância do brincar na Educação Infantil</h1>
+    <h2 class="titulo">O Curso</h2>
     <div>
-        <h2>O Curso</h2>
-        <p>
+        
+        <p class="descricao-curso">
             A Educação Infantil é uma etapa escolar de grande relevância na vida de uma criança. É nesta etapa que devem ser oportunizadas competências e habilidades importantes para o desenvolvimento da alfabetização. Neste contexto, o brincar insere-se como uma importante ferramenta para o processo de ensino e aprendizagem. Tendo isso em vista, a Unoeste com o propósito de oportunizar formação desta temática, desenvolveu o curso de extensão "A importância do brincar na Educação Infantil".
         </p>
     </div>
 
     <div class="curso" data-preco="120" data-vagas="5">
-        <p>Instrutor: Profa. Dra. Maria da Silva</p>
-        <p>carga horária: 30 horas</p>
-        <p>Preço: R$120,00</p>
-        <p>Vagas disponíveis: <span class="vagas"></span></p>
-        <label>Quantidade de Vagas: </label>
+        <p class="descricao-curso"><strong>Instrutor:</strong> Profa. Dra. Maria da Silva</p>
+        <p class="descricao-curso"><strong>Carga horária:</strong> 30 horas</p>
+        <p class="descricao-curso"><strong>Preço:</strong> R$120,00</p>
+        <p class="descricao-curso"><strong>Vagas disponíveis:</strong> <span class="vagas"></span></p>
+        <label class="descricao-curso"><strong>Quantidade de Vagas:</strong></label>
         <input type="number" class="quantidade" min="1" value="1">
-        <p>Total à pagar: <span class="total"></span> </p>
-        <button class="btn-confirmar">Confirmar Seleção</button>    
+        <p class="descricao-curso"><strong>Total à pagar:</strong> <span class="total"></span> </p>
+        <button class="btn-confirmar botao-confirma">Confirmar Seleção</button>    
     </div>
+    <button class="container-voltar"><a href="/index.html" class="btn-voltar">Voltar</a></button>
     <script src="/js/script.js"></script>
-    <button><a href="/index.html">Voltar</a></button>
+    
 </body>
 </html>
