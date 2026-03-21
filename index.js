@@ -4,7 +4,7 @@ import autentication from './security/autenticator.js';
 import session from 'express-session';
 
 const host = "127.0.0.1";
-const porta = 3001;
+const porta = 8000;
 
 const app = express();
 app.use(session({
